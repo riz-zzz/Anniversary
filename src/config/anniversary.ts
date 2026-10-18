@@ -33,7 +33,7 @@ export const anniversaryConfig = {
     footer: "made with love, just for you",
   },
 
-  // ----- The love letter -----
+  // ----- The love letter -----`
   letter: {
     title: "A Letter for You",
     date: "October 19, 2026", // e.g. "October 18, 2026" — leave empty to hide
@@ -69,7 +69,7 @@ export const anniversaryConfig = {
   youtube: {
     heading: "A SONG FOR YOU",
     intro: "Some feelings are easier to share through a song.",
-    url: "https://www.youtube.com/watch?v=VIDEO_ID", // <-- replace VIDEO_ID
+    url: "https://youtu.be/9tLglpFAyIg?si=Z_tdCuGsg6jxnwL3", // <-- replace VIDEO_ID
     caption: "So, this one is for you.",
   },
 
