@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: #f8f3ea;
+  color: #493a35;
+  overflow-x: hidden;
+}
+
+/* Soft handmade paper texture, pure CSS (no image needed) */
+.paper {
+  background-color: #f8f3ea;
+  background-image:
+    radial-gradient(rgba(73, 58, 53, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(73, 58, 53, 0.03) 1px, transparent 1px);
+  background-size: 22px 22px, 34px 34px;
+  background-position: 0 0, 11px 11px;
+}
+
+/* Polaroid frame */
+.polaroid {
+  background: #fdfbf6;
+  padding: 0.7rem 0.7rem 2.8rem;
+  box-shadow: 0 12px 30px -12px rgba(73, 58, 53, 0.35);
+  border: 1px solid rgba(73, 58, 53, 0.08);
+}
+
+/* Disposable-camera vibe: slightly washed-out, warm, grainy */
+.film-photo {
+  filter: saturate(0.82) contrast(0.95) sepia(0.14) brightness(1.03);
+}
+
+/* Visible focus state for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #b77c83;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: #e8c9c4;
+  color: #493a35;
+}

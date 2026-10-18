@@ -1,0 +1,2 @@
+Taruh file lagu kamu di folder ini dengan nama: our-song.mp3
+(atau ubah path-nya di src/config/anniversary.ts -> song.src)
